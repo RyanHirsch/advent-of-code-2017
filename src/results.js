@@ -1,5 +1,5 @@
 import { join, resolve } from 'path';
-import { readdirSync, lstatSync, readFileSync } from 'fs';
+import { readdirSync, readFileSync } from 'fs';
 
 function result(label, fn, input) {
   console.log(`${label} solution is ${fn(input)}`); // eslint-disable-line no-console
