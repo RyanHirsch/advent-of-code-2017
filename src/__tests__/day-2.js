@@ -1,4 +1,4 @@
-import solver from '../day-2';
+import solver from '../day2';
 
 describe('Day 2', () => {
   it('can solve the example', () => {
